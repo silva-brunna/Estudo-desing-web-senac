@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: copperplate gothic;, sans-serif;
+	line-height: 1.6;
+	color:#fff 
+}
+
+header {
+	background-color: #203362;
+	color: #9AAD71;
+	padding: 10px 30px ;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index:  1000;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav ul{
+	list-style: none;
+	display: flex;
+}
+
+header nav ul li {
+	margin-left: 60px;
+
+}
+
+header nav ul li a{
+color: #9AAD71;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+#hero {
+	background: url(https://dalfbrindes.com.br/wp-content/uploads/2021/03/na-dalf-brindes-voce-encontra-diversas-opcoes-de-produtos-personalizados-para-o-seu-negocio.jpg) no-repeat center center/ cover;
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 200px; /*Espaço adicional para compensar a barra de navegação fixa */
+}
+
+#hero h2{
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+
+#hero p {
+	font-size: 2.0em;
+	margin-bottom: 40px;
+}
+
+.cta-button{
+	background-color:#000000;
+	color: #fff;
+	padding: 10px 5px;
+	text-decoration: none;
+	font-size: 1.1em;
+	border-radius: 5px;
+}
+
+.content-section{
+	padding: 60px 20px;
+	padding-top: 80px;
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form label {
+	margin-bottom: 10px;
+	font-weight: bold;	
+}
+
+ form input, form textarea, form button{
+ 	margin-bottom: 20px;
+ 	padding: 20px;
+ 	font-size: 1em;
+ }
+
+ form button{
+ 	background-color:#203362 ;
+ 	color:#9AAD71;
+ 	font-weight: bold;
+ 	border: none;
+ 	cursor: pointer;
+ }
+
+ form button:hover {
+ 	background:#203362 ;
+ 	color:#203362;
+ 	border:none;
+ 	cursor: pointer;
+ }
+ footer{
+ 	background:#203362 ;
+	color:#9AAD71 ;
+ 	text-align: center;
+ 	padding: 20px 0;
+}
+
+/* Responsividade*/
+
+@media (max-width:768px){
+	header .container{
+		flex-direction: column;
+	}
+}
+
+#hero h2{*/
+	font-size: 2.5em;
+}
+
+#hero p{
+	font-size: 1.2em;
+}
+
+/*header nav ul{*/
+	/*flex-direction: column;*/
+	/*align-items: center;*/
+}
+/*header nav ul li{ */
+	/*margin-left:0 ; */
+	/*margin-bottom: 10px;*/
+}
+
+#sobre h2{
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	color:#000000;
+}
+#sobre p{
+	color:#000000;
+}
+#produtos h2{
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	color:#000000;
+}
+#produtos p{
+	
+	color:#000000;
+}
+#faleconosco h2{
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	
+}
+#faleconosco {
+	color:#000000;
+}
+
